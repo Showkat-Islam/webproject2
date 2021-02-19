@@ -1,0 +1,6 @@
+[27-Nov-2020 19:24:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) in /home/hbarmqwo/rexoit.com/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/hbarmqwo/rexoit.com/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'forge', '', Array)
+#1 /home/hbarmqwo/rexoit.com/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'forge', '', Array)
+#2 /home/hbarmqwo/rexoit.com/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home/hbarmqwo/rexoit.com/@core/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array) in /home/hbarmqwo/rexoit.com/@core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 671

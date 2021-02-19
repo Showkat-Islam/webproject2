@@ -1,0 +1,18 @@
+Its a laravel project but without php artisan serve. You have to run this project directly from xampp server.
+
+Please follow this steps one by one:(importent)
+
+1) First make a data base named arif {check from .env file}.
+2) Make a user privilage authentication for to access this "arif" database :{check .env file}
+
+ user name: arif
+ server: localhost
+ password: null
+
+3) After all done, then access your project folder from xampp primary directory.
+
+4) If any problem call me directly (01534770999/01643180062)(Tuhin).
+
+
+
+
